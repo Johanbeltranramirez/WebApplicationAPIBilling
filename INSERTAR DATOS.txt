@@ -1,0 +1,273 @@
+--------------------------------------------------------------------------------------
+============= POST CUSTOMERS ================================
+{
+  "id": 0,
+  "primerNombre": "Vladimir",
+  "apellido": "Cortés Arévalo",
+  "ciudad": "Bogotá D.C.",
+  "pais": "Colombia",
+  "telefono": "3144427602",
+  "ordenesC": null
+}
+
+{
+  "id": 0,
+  "primerNombre": "Paola",
+  "apellido": "Ortíz Muñoz",
+  "ciudad": "Bogotá D.C.",
+  "pais": "Colombia",
+  "telefono": "3153666036",
+  "ordenesC": null
+}
+
+{
+  "id": 0,
+  "primerNombre": "Natalia",
+  "apellido": "González Ríncon",
+  "ciudad": "Chia",
+  "pais": "Colombia",
+  "telefono": "3153666037",
+  "ordenesC": null
+}
+============= POST SUPPLIERS ================================
+{
+  "id": 0,
+  "companyName": "Home Center",
+  "contactName": "Germán Gilberto Alarcón",
+  "contactTitle": "Ingeniero",
+  "city": "Medellin",
+  "country": "Colombia",
+  "phone": "3153666038",
+  "email": "galarcon@homecenter.com.co",
+  "products": null
+}
+
+
+{
+  "id": 0,
+  "companyName": "Easy Cencosud",
+  "contactName": "Ana Yaqueline Chavarro",
+  "contactTitle": "Ingeniera",
+  "city": "Cali",
+  "country": "Colombia",
+  "phone": "3153666039",
+  "email": "aychavarro@easy.com.co",
+  "products": null
+}
+
+{
+  "id": 0,
+  "companyName": "Falabella",
+  "contactName": "Luís Carlos González",
+  "contactTitle": "Ingeniero",
+  "city": "Cartagena",
+  "country": "Colombia",
+  "phone": "3153666040",
+  "email": "lcgonzalez@falabella.com.co",
+  "products": null
+}
+
+==============POST PRODUCTS =================================
+Homecenter: 1
+
+{
+  "id": 0,
+  "nombreProducto": "Ventilador de Torre 2 Velocidades Eole Ultra Negro",
+  "proveedorId": 1,
+  "unitPrecio": 439900,
+  "paquete": "Unidad",
+  "esDescontinuado": false,
+  "proveedor":null
+}
+
+{
+  "id": 0,
+  "nombreProducto": "Estufa Empotrable 60 x 43 cm Acero Inoxidable 4 Puestos",
+  "proveedorId": 1,
+  "unitPrecio": 387900,
+  "paquete": "Unidad",
+  "esDescontinuado": false,
+  "proveedor":null
+}
+
+{
+  "id": 0,
+  "nombreProducto": "Nevecón Side By Side Inverter 442 Lts Silver ERSA44V3HVG",
+  "proveedorId": 1,
+  "unitPrecio": 3399900,
+  "paquete": "Unidad",
+  "esDescontinuado": false,
+  "proveedor":null
+}
+
+Easy Cencosud: 2
+
+{
+  "id": 0,
+  "nombreProducto": "Compresor McCarthy 115Psi Fl24 2Hp con Ruedas x24L Negro",
+  "proveedorId": 2,
+  "unitPrecio": 429900,
+  "paquete": "Unidad",
+  "esDescontinuado": false,
+  "proveedor":null
+}
+
+{
+  "id": 0,
+  "nombreProducto": "Hidrolavadora 1305 Psi Mccarthy",
+  "proveedorId": 2,
+  "unitPrecio": 209900,
+  "paquete": "Unidad",
+  "esDescontinuado": false,
+  "proveedor":null
+}
+
+
+{
+  "id": 0,
+  "nombreProducto": "Sierra Caladora 400w",
+  "proveedorId": 2,
+  "unitPrecio": 69990,
+  "paquete": "Unidad",
+  "esDescontinuado": false,
+  "proveedor":null
+}
+
+============= POST ORDERS ===================================
+
+
+  {
+    "id": 1,
+    "fechaOrd": "2023-10-29T02:00:20.081",
+    "numeroOrd": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "clienteId": 1,
+    "pagoTotal": 0,
+    "cliente": null,
+    "ordenItems": [
+      {
+        "id": 0,
+        "ordenId": 0,
+        "productoId": 1,
+        "unitPrecio": 2,
+        "cantidad": null,
+        "producto": null
+      },
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 4,
+        "quantity": 3,
+        "order": null,
+        "product": null
+      }
+    ]
+  }
+
+
+  {
+    "id": 0,
+    "orderDate": "2023-10-29T02:00:20.081",
+    "orderNumber": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "customerId": 2,
+    "totalAmount": 0,
+    "customer": null,
+    "orderItems": [
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 3,
+        "quantity": 4,
+        "order": null,
+        "product": null
+      },
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 5,
+        "quantity": 4,
+        "order": null,
+        "product": null
+      },
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 6,
+        "quantity": 2,
+        "order": null,
+        "product": null
+      }
+    ]
+  }
+
+
+  {
+    "id": 0,
+    "orderDate": "2023-10-29T02:00:20.081",
+    "orderNumber": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "customerId": 3,
+    "totalAmount": 0,
+    "customer": null,
+    "orderItems": [
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 2,
+        "quantity": 2,
+        "order": null,
+        "product": null
+      },
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 3,
+        "quantity": 5,
+        "order": null,
+        "product": null
+      },
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 4,
+        "quantity": 4,
+        "order": null,
+        "product": null
+      }
+    ]
+  }
+
+
+  {
+    "id": 0,
+    "orderDate": "2023-10-29T02:00:20.081",
+    "orderNumber": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "customerId": 2,
+    "totalAmount": 0,
+    "customer": null,
+    "orderItems": [
+      {
+        "id": 0,
+        "orderId": 0,
+        "productId": 6,
+        "quantity": 10,
+        "order": null,
+        "product": null
+      }
+    ]
+  }
+========= POST ORDER (BASE) ===============
+
+{
+  "id": 0,
+  "orderDate": "2023-10-29T02:00:20.081Z",
+  "orderNumber": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "customerId": 1,
+  "totalAmount": 0,
+  "orderItems": [
+    {
+      "id": 0,
+      "orderId": 0,
+      "productId": 1,
+      "quantity": 1
+    }
+  ]
+}
