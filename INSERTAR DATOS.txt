@@ -30,42 +30,45 @@
   "ordenesC": null
 }
 ============= POST SUPPLIERS ================================
+
+
 {
   "id": 0,
-  "companyName": "Home Center",
-  "contactName": "Germán Gilberto Alarcón",
-  "contactTitle": "Ingeniero",
-  "city": "Medellin",
-  "country": "Colombia",
-  "phone": "3153666038",
+  "nombreCompania": "Home Center",
+  "nombreContacto": "Germán Gilberto Alarcón",
+  "tituloContacto": "Ingeniero",
+  "ciudad": "Medellin",
+  "pais": "Colombia",
+  "telefono": "3153666038",
   "email": "galarcon@homecenter.com.co",
-  "products": null
+  "productos": null
 }
 
 
 {
   "id": 0,
-  "companyName": "Easy Cencosud",
-  "contactName": "Ana Yaqueline Chavarro",
-  "contactTitle": "Ingeniera",
-  "city": "Cali",
-  "country": "Colombia",
-  "phone": "3153666039",
+  "nombreCompania":  "Easy Cencosud",
+  "nombreContacto":  "Ana Yaqueline Chavarro",
+  "tituloContacto": "Ingeniera",
+  "ciudad": "Cali",
+  "pais": "Colombia",
+  "telefono": "3153666039",
   "email": "aychavarro@easy.com.co",
-  "products": null
+  "productos": null
 }
 
 {
   "id": 0,
-  "companyName": "Falabella",
-  "contactName": "Luís Carlos González",
-  "contactTitle": "Ingeniero",
-  "city": "Cartagena",
-  "country": "Colombia",
-  "phone": "3153666040",
+  "nombreCompania": "Falabella",
+  "nombreContacto": "Luís Carlos González",
+  "tituloContacto": "Ingeniero",
+  "ciudad":  "Cartagena",
+  "pais": "Colombia",
+  "telefono": "3153666040",
   "email": "lcgonzalez@falabella.com.co",
-  "products": null
+  "productos": null
 }
+
 
 ==============POST PRODUCTS =================================
 Homecenter: 1
